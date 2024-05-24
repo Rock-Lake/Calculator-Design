@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', monospace; 
+  color:white;
+  font-size: 48px; 
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.background { 
+    width: 546px;
+    height: 924px;
+    padding: 34px; 
+    padding-left: 24px; 
+    padding-bottom: 20px;
+    padding-right: 24px;
+    border-radius: 15px;
+    background-color: #d9d9d9;
+} 
+
+input{
+    width: 498px;
+    border: none;
+    padding: 26px;
+    margin: 0px;
+    border-radius: 15px;
+    background-color: #1e1e1e;
+    font-size: 48px;
+    text-align: right;
+}
+input::placeholder{
+    color: white;
+}
+
+button{
+    border: none;
+    width: 96px;
+    height: 117px;
+    border-radius: 13px;
+    margin-top: 37px;
+    
+}
+/* .space{
+    border: solid black;
+    height: 96px;
+    width: 360px;
+} */
+#clear {
+    background-color: #ff0000;
+    margin-top: 15px;
+    position: relative;
+    left: 80%; 
+     
+}
+.number{
+    background-color: #777777;
+    margin-left: 0px;
+    margin-right: 16px;
+}
+.operation{
+    background-color: #ff9500;
+    margin-left: 16px;
+}
+.equal{
+    background-color: #28a475;
+    margin-right: 16px;
+}
